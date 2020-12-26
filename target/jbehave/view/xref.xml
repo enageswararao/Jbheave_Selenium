@@ -1,0 +1,863 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Login.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo>work with files to compress</inOrderTo>
+          <asA>guy who wants to win a bet with cameron</asA>
+          <iWantTo>ensure files are ingested and processed in the manner in which the&#xd;
+methods in the ingest class purport to process them.</iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <stories/>
+          <asString></asString>
+        </givenStories>
+        <lifecycle>
+          <before class="java.util.Arrays$ArrayList">
+            <a class="lifecycleSteps-array"/>
+          </before>
+          <after class="java.util.Arrays$ArrayList">
+            <a class="lifecycleSteps-array"/>
+          </after>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive1</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive2</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive3</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+        </scenarios>
+        <name>Login.story</name>
+      </story>
+      <givenStory>false</givenStory>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <timing>
+        <durationInMillis>79637</durationInMillis>
+        <start>1608955058791</start>
+        <end>1608955138428</end>
+      </timing>
+      <givenStories/>
+      <beforeSteps>
+        <performableSteps>
+          <results>
+            <silent>
+              <step>steps.LoginSteps.start()</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>77224</durationInMillis>
+                <start>1608955058838</start>
+                <end>1608955136062</end>
+              </timing>
+            </silent>
+          </results>
+        </performableSteps>
+        <performableSteps>
+          <matches/>
+        </performableSteps>
+      </beforeSteps>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive1</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+          <storyPath>stories/Login.story</storyPath>
+          <allowed>true</allowed>
+          <status>SUCCESSFUL</status>
+          <timing>
+            <durationInMillis>123</durationInMillis>
+            <start>1608955136062</start>
+            <end>1608955136185</end>
+          </timing>
+          <normalScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+                  <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+                  <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>a file, a\.log</annotatedPattern>
+                  <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given a file, a.log</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136062</start>
+                    <end>1608955136062</end>
+                  </timing>
+                  <parametrisedStep>Given a file, a.log</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>When the caller loads the file as a byte array</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136062</start>
+                    <end>1608955136062</end>
+                  </timing>
+                  <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>Then the byte array that is returned contains the correct number of bytes.</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136062</start>
+                    <end>1608955136062</end>
+                  </timing>
+                  <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+          </normalScenario>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive2</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+          <storyPath>stories/Login.story</storyPath>
+          <allowed>true</allowed>
+          <status>SUCCESSFUL</status>
+          <timing>
+            <durationInMillis>15</durationInMillis>
+            <start>1608955136185</start>
+            <end>1608955136200</end>
+          </timing>
+          <normalScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+                  <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+                  <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>a file, a\.log</annotatedPattern>
+                  <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given a file, a.log</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136185</start>
+                    <end>1608955136185</end>
+                  </timing>
+                  <parametrisedStep>Given a file, a.log</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>When the caller loads the file as a byte array</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136185</start>
+                    <end>1608955136185</end>
+                  </timing>
+                  <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>Then the byte array that is returned contains the correct number of bytes.</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136185</start>
+                    <end>1608955136185</end>
+                  </timing>
+                  <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+          </normalScenario>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <steps>
+              <string>Given a file, a.log</string>
+              <string>When the caller loads the file as a byte array</string>
+              <string>Then the byte array that is returned contains the correct number of bytes.</string>
+            </steps>
+            <title>Simple test to give JBehave a test drive3</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <stories/>
+              <asString></asString>
+            </givenStories>
+            <examplesTable>
+              <tableRows>
+                <headers/>
+                <rows/>
+              </tableRows>
+              <tablePropertiesQueue class="linked-list">
+                <org.jbehave.core.model.ExamplesTable_-TableProperties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                </org.jbehave.core.model.ExamplesTable_-TableProperties>
+              </tablePropertiesQueue>
+              <namedParameters/>
+              <parameterControls>
+                <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+                <nameDelimiterRight>&gt;</nameDelimiterRight>
+                <delimiterNamedParameters>true</delimiterNamedParameters>
+              </parameterControls>
+            </examplesTable>
+          </scenario>
+          <storyPath>stories/Login.story</storyPath>
+          <allowed>true</allowed>
+          <status>SUCCESSFUL</status>
+          <timing>
+            <durationInMillis>22</durationInMillis>
+            <start>1608955136200</start>
+            <end>1608955136222</end>
+          </timing>
+          <normalScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>THEN</type>
+                  <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+                  <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+                  <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+                </stepMatch>
+                <stepMatch>
+                  <type>GIVEN</type>
+                  <annotatedPattern>a file, a\.log</annotatedPattern>
+                  <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <successful>
+                  <step>Given a file, a.log</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>7</durationInMillis>
+                    <start>1608955136200</start>
+                    <end>1608955136207</end>
+                  </timing>
+                  <parametrisedStep>Given a file, a.log</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>When the caller loads the file as a byte array</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136207</start>
+                    <end>1608955136207</end>
+                  </timing>
+                  <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+                </successful>
+                <successful>
+                  <step>Then the byte array that is returned contains the correct number of bytes.</step>
+                  <type>SUCCESSFUL</type>
+                  <timing>
+                    <durationInMillis>0</durationInMillis>
+                    <start>1608955136207</start>
+                    <end>1608955136207</end>
+                  </timing>
+                  <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+          </normalScenario>
+        </performableScenario>
+      </scenarios>
+      <afterSteps>
+        <performableSteps>
+          <matches/>
+        </performableSteps>
+        <performableSteps>
+          <results>
+            <silent>
+              <step>steps.LoginSteps.end()</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>2206</durationInMillis>
+                <start>1608955136222</start>
+                <end>1608955138428</end>
+              </timing>
+            </silent>
+          </results>
+        </performableSteps>
+      </afterSteps>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <steps>
+          <string>Given a file, a.log</string>
+          <string>When the caller loads the file as a byte array</string>
+          <string>Then the byte array that is returned contains the correct number of bytes.</string>
+        </steps>
+        <title>Simple test to give JBehave a test drive1</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <stories/>
+          <asString></asString>
+        </givenStories>
+        <examplesTable>
+          <tableRows>
+            <headers/>
+            <rows/>
+          </tableRows>
+          <tablePropertiesQueue class="linked-list">
+            <org.jbehave.core.model.ExamplesTable_-TableProperties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+            </org.jbehave.core.model.ExamplesTable_-TableProperties>
+          </tablePropertiesQueue>
+          <namedParameters/>
+          <parameterControls>
+            <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+            <nameDelimiterRight>&gt;</nameDelimiterRight>
+            <delimiterNamedParameters>true</delimiterNamedParameters>
+          </parameterControls>
+        </examplesTable>
+      </scenario>
+      <storyPath>stories/Login.story</storyPath>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <timing>
+        <durationInMillis>123</durationInMillis>
+        <start>1608955136062</start>
+        <end>1608955136185</end>
+      </timing>
+      <normalScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+              <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+              <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>a file, a\.log</annotatedPattern>
+              <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given a file, a.log</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136062</start>
+                <end>1608955136062</end>
+              </timing>
+              <parametrisedStep>Given a file, a.log</parametrisedStep>
+            </successful>
+            <successful>
+              <step>When the caller loads the file as a byte array</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136062</start>
+                <end>1608955136062</end>
+              </timing>
+              <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+            </successful>
+            <successful>
+              <step>Then the byte array that is returned contains the correct number of bytes.</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136062</start>
+                <end>1608955136062</end>
+              </timing>
+              <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+      </normalScenario>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <steps>
+          <string>Given a file, a.log</string>
+          <string>When the caller loads the file as a byte array</string>
+          <string>Then the byte array that is returned contains the correct number of bytes.</string>
+        </steps>
+        <title>Simple test to give JBehave a test drive2</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <stories/>
+          <asString></asString>
+        </givenStories>
+        <examplesTable>
+          <tableRows>
+            <headers/>
+            <rows/>
+          </tableRows>
+          <tablePropertiesQueue class="linked-list">
+            <org.jbehave.core.model.ExamplesTable_-TableProperties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+            </org.jbehave.core.model.ExamplesTable_-TableProperties>
+          </tablePropertiesQueue>
+          <namedParameters/>
+          <parameterControls>
+            <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+            <nameDelimiterRight>&gt;</nameDelimiterRight>
+            <delimiterNamedParameters>true</delimiterNamedParameters>
+          </parameterControls>
+        </examplesTable>
+      </scenario>
+      <storyPath>stories/Login.story</storyPath>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <timing>
+        <durationInMillis>15</durationInMillis>
+        <start>1608955136185</start>
+        <end>1608955136200</end>
+      </timing>
+      <normalScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+              <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+              <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>a file, a\.log</annotatedPattern>
+              <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given a file, a.log</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136185</start>
+                <end>1608955136185</end>
+              </timing>
+              <parametrisedStep>Given a file, a.log</parametrisedStep>
+            </successful>
+            <successful>
+              <step>When the caller loads the file as a byte array</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136185</start>
+                <end>1608955136185</end>
+              </timing>
+              <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+            </successful>
+            <successful>
+              <step>Then the byte array that is returned contains the correct number of bytes.</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136185</start>
+                <end>1608955136185</end>
+              </timing>
+              <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+      </normalScenario>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <steps>
+          <string>Given a file, a.log</string>
+          <string>When the caller loads the file as a byte array</string>
+          <string>Then the byte array that is returned contains the correct number of bytes.</string>
+        </steps>
+        <title>Simple test to give JBehave a test drive3</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <stories/>
+          <asString></asString>
+        </givenStories>
+        <examplesTable>
+          <tableRows>
+            <headers/>
+            <rows/>
+          </tableRows>
+          <tablePropertiesQueue class="linked-list">
+            <org.jbehave.core.model.ExamplesTable_-TableProperties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+            </org.jbehave.core.model.ExamplesTable_-TableProperties>
+          </tablePropertiesQueue>
+          <namedParameters/>
+          <parameterControls>
+            <nameDelimiterLeft>&lt;</nameDelimiterLeft>
+            <nameDelimiterRight>&gt;</nameDelimiterRight>
+            <delimiterNamedParameters>true</delimiterNamedParameters>
+          </parameterControls>
+        </examplesTable>
+      </scenario>
+      <storyPath>stories/Login.story</storyPath>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <timing>
+        <durationInMillis>22</durationInMillis>
+        <start>1608955136200</start>
+        <end>1608955136222</end>
+      </timing>
+      <normalScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>THEN</type>
+              <annotatedPattern>the byte array that is returned contains the correct number of bytes\.</annotatedPattern>
+              <resolvedPattern>the\s+byte\s+array\s+that\s+is\s+returned\s+contains\s+the\s+correct\s+number\s+of\s+bytes\.</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>the caller loads the file as a byte array</annotatedPattern>
+              <resolvedPattern>the\s+caller\s+loads\s+the\s+file\s+as\s+a\s+byte\s+array</resolvedPattern>
+            </stepMatch>
+            <stepMatch>
+              <type>GIVEN</type>
+              <annotatedPattern>a file, a\.log</annotatedPattern>
+              <resolvedPattern>a\s+file,\s+a\.log</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <successful>
+              <step>Given a file, a.log</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>7</durationInMillis>
+                <start>1608955136200</start>
+                <end>1608955136207</end>
+              </timing>
+              <parametrisedStep>Given a file, a.log</parametrisedStep>
+            </successful>
+            <successful>
+              <step>When the caller loads the file as a byte array</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136207</start>
+                <end>1608955136207</end>
+              </timing>
+              <parametrisedStep>When the caller loads the file as a byte array</parametrisedStep>
+            </successful>
+            <successful>
+              <step>Then the byte array that is returned contains the correct number of bytes.</step>
+              <type>SUCCESSFUL</type>
+              <timing>
+                <durationInMillis>0</durationInMillis>
+                <start>1608955136207</start>
+                <end>1608955136207</end>
+              </timing>
+              <parametrisedStep>Then the byte array that is returned contains the correct number of bytes.</parametrisedStep>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+      </normalScenario>
+    </performableScenario>
+  </scenarios>
+</xref>

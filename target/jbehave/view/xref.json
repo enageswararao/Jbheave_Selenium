@@ -1,0 +1,943 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Login.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "work with files to compress",
+          "asA": "guy who wants to win a bet with cameron",
+          "iWantTo": "ensure files are ingested and processed in the manner in which the\r\nmethods in the ingest class purport to process them.",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "stories": [],
+          "asString": ""
+        },
+        "lifecycle": {
+          "before": [
+            []
+          ],
+          "after": [
+            []
+          ]
+        },
+        "scenarios": [
+          {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive1",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          },
+          {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive2",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          },
+          {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive3",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          }
+        ],
+        "name": "Login.story"
+      },
+      "givenStory": false,
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "timing": {
+        "durationInMillis": 79637,
+        "start": 1608955058791,
+        "end": 1608955138428
+      },
+      "givenStories": [],
+      "beforeSteps": [
+        {
+          "results": [
+            {
+              "step": "steps.LoginSteps.start()",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 77224,
+                "start": 1608955058838,
+                "end": 1608955136062
+              }
+            }
+          ]
+        },
+        {
+          "matches": []
+        }
+      ],
+      "scenarios": [
+        {
+          "scenario": {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive1",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          },
+          "storyPath": "stories/Login.story",
+          "allowed": true,
+          "status": "SUCCESSFUL",
+          "timing": {
+            "durationInMillis": 123,
+            "start": 1608955136062,
+            "end": 1608955136185
+          },
+          "normalScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+                  "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "the caller loads the file as a byte array",
+                  "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+                },
+                {
+                  "type": "GIVEN",
+                  "annotatedPattern": "a file, a\\.log",
+                  "resolvedPattern": "a\\s+file,\\s+a\\.log"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given a file, a.log",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136062,
+                    "end": 1608955136062
+                  },
+                  "parametrisedStep": "Given a file, a.log"
+                },
+                {
+                  "step": "When the caller loads the file as a byte array",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136062,
+                    "end": 1608955136062
+                  },
+                  "parametrisedStep": "When the caller loads the file as a byte array"
+                },
+                {
+                  "step": "Then the byte array that is returned contains the correct number of bytes.",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136062,
+                    "end": 1608955136062
+                  },
+                  "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            }
+          }
+        },
+        {
+          "scenario": {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive2",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          },
+          "storyPath": "stories/Login.story",
+          "allowed": true,
+          "status": "SUCCESSFUL",
+          "timing": {
+            "durationInMillis": 15,
+            "start": 1608955136185,
+            "end": 1608955136200
+          },
+          "normalScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+                  "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "the caller loads the file as a byte array",
+                  "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+                },
+                {
+                  "type": "GIVEN",
+                  "annotatedPattern": "a file, a\\.log",
+                  "resolvedPattern": "a\\s+file,\\s+a\\.log"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given a file, a.log",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136185,
+                    "end": 1608955136185
+                  },
+                  "parametrisedStep": "Given a file, a.log"
+                },
+                {
+                  "step": "When the caller loads the file as a byte array",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136185,
+                    "end": 1608955136185
+                  },
+                  "parametrisedStep": "When the caller loads the file as a byte array"
+                },
+                {
+                  "step": "Then the byte array that is returned contains the correct number of bytes.",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136185,
+                    "end": 1608955136185
+                  },
+                  "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            }
+          }
+        },
+        {
+          "scenario": {
+            "steps": [
+              "Given a file, a.log",
+              "When the caller loads the file as a byte array",
+              "Then the byte array that is returned contains the correct number of bytes."
+            ],
+            "title": "Simple test to give JBehave a test drive3",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "stories": [],
+              "asString": ""
+            },
+            "examplesTable": {
+              "tableRows": {
+                "headers": [],
+                "rows": []
+              },
+              "tablePropertiesQueue": [
+                {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": ""
+                }
+              ],
+              "namedParameters": [],
+              "parameterControls": {
+                "nameDelimiterLeft": "<",
+                "nameDelimiterRight": ">",
+                "delimiterNamedParameters": true
+              }
+            }
+          },
+          "storyPath": "stories/Login.story",
+          "allowed": true,
+          "status": "SUCCESSFUL",
+          "timing": {
+            "durationInMillis": 22,
+            "start": 1608955136200,
+            "end": 1608955136222
+          },
+          "normalScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "THEN",
+                  "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+                  "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+                },
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "the caller loads the file as a byte array",
+                  "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+                },
+                {
+                  "type": "GIVEN",
+                  "annotatedPattern": "a file, a\\.log",
+                  "resolvedPattern": "a\\s+file,\\s+a\\.log"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given a file, a.log",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 7,
+                    "start": 1608955136200,
+                    "end": 1608955136207
+                  },
+                  "parametrisedStep": "Given a file, a.log"
+                },
+                {
+                  "step": "When the caller loads the file as a byte array",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136207,
+                    "end": 1608955136207
+                  },
+                  "parametrisedStep": "When the caller loads the file as a byte array"
+                },
+                {
+                  "step": "Then the byte array that is returned contains the correct number of bytes.",
+                  "type": "SUCCESSFUL",
+                  "timing": {
+                    "durationInMillis": 0,
+                    "start": 1608955136207,
+                    "end": 1608955136207
+                  },
+                  "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            }
+          }
+        }
+      ],
+      "afterSteps": [
+        {
+          "matches": []
+        },
+        {
+          "results": [
+            {
+              "step": "steps.LoginSteps.end()",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 2206,
+                "start": 1608955136222,
+                "end": 1608955138428
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "steps": [
+          "Given a file, a.log",
+          "When the caller loads the file as a byte array",
+          "Then the byte array that is returned contains the correct number of bytes."
+        ],
+        "title": "Simple test to give JBehave a test drive1",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "stories": [],
+          "asString": ""
+        },
+        "examplesTable": {
+          "tableRows": {
+            "headers": [],
+            "rows": []
+          },
+          "tablePropertiesQueue": [
+            {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": ""
+            }
+          ],
+          "namedParameters": [],
+          "parameterControls": {
+            "nameDelimiterLeft": "<",
+            "nameDelimiterRight": ">",
+            "delimiterNamedParameters": true
+          }
+        }
+      },
+      "storyPath": "stories/Login.story",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "timing": {
+        "durationInMillis": 123,
+        "start": 1608955136062,
+        "end": 1608955136185
+      },
+      "normalScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "THEN",
+              "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+              "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "the caller loads the file as a byte array",
+              "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+            },
+            {
+              "type": "GIVEN",
+              "annotatedPattern": "a file, a\\.log",
+              "resolvedPattern": "a\\s+file,\\s+a\\.log"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given a file, a.log",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136062,
+                "end": 1608955136062
+              },
+              "parametrisedStep": "Given a file, a.log"
+            },
+            {
+              "step": "When the caller loads the file as a byte array",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136062,
+                "end": 1608955136062
+              },
+              "parametrisedStep": "When the caller loads the file as a byte array"
+            },
+            {
+              "step": "Then the byte array that is returned contains the correct number of bytes.",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136062,
+                "end": 1608955136062
+              },
+              "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        }
+      }
+    },
+    {
+      "scenario": {
+        "steps": [
+          "Given a file, a.log",
+          "When the caller loads the file as a byte array",
+          "Then the byte array that is returned contains the correct number of bytes."
+        ],
+        "title": "Simple test to give JBehave a test drive2",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "stories": [],
+          "asString": ""
+        },
+        "examplesTable": {
+          "tableRows": {
+            "headers": [],
+            "rows": []
+          },
+          "tablePropertiesQueue": [
+            {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": ""
+            }
+          ],
+          "namedParameters": [],
+          "parameterControls": {
+            "nameDelimiterLeft": "<",
+            "nameDelimiterRight": ">",
+            "delimiterNamedParameters": true
+          }
+        }
+      },
+      "storyPath": "stories/Login.story",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "timing": {
+        "durationInMillis": 15,
+        "start": 1608955136185,
+        "end": 1608955136200
+      },
+      "normalScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "THEN",
+              "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+              "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "the caller loads the file as a byte array",
+              "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+            },
+            {
+              "type": "GIVEN",
+              "annotatedPattern": "a file, a\\.log",
+              "resolvedPattern": "a\\s+file,\\s+a\\.log"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given a file, a.log",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136185,
+                "end": 1608955136185
+              },
+              "parametrisedStep": "Given a file, a.log"
+            },
+            {
+              "step": "When the caller loads the file as a byte array",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136185,
+                "end": 1608955136185
+              },
+              "parametrisedStep": "When the caller loads the file as a byte array"
+            },
+            {
+              "step": "Then the byte array that is returned contains the correct number of bytes.",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136185,
+                "end": 1608955136185
+              },
+              "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        }
+      }
+    },
+    {
+      "scenario": {
+        "steps": [
+          "Given a file, a.log",
+          "When the caller loads the file as a byte array",
+          "Then the byte array that is returned contains the correct number of bytes."
+        ],
+        "title": "Simple test to give JBehave a test drive3",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "stories": [],
+          "asString": ""
+        },
+        "examplesTable": {
+          "tableRows": {
+            "headers": [],
+            "rows": []
+          },
+          "tablePropertiesQueue": [
+            {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": ""
+            }
+          ],
+          "namedParameters": [],
+          "parameterControls": {
+            "nameDelimiterLeft": "<",
+            "nameDelimiterRight": ">",
+            "delimiterNamedParameters": true
+          }
+        }
+      },
+      "storyPath": "stories/Login.story",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "timing": {
+        "durationInMillis": 22,
+        "start": 1608955136200,
+        "end": 1608955136222
+      },
+      "normalScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "THEN",
+              "annotatedPattern": "the byte array that is returned contains the correct number of bytes\\.",
+              "resolvedPattern": "the\\s+byte\\s+array\\s+that\\s+is\\s+returned\\s+contains\\s+the\\s+correct\\s+number\\s+of\\s+bytes\\."
+            },
+            {
+              "type": "WHEN",
+              "annotatedPattern": "the caller loads the file as a byte array",
+              "resolvedPattern": "the\\s+caller\\s+loads\\s+the\\s+file\\s+as\\s+a\\s+byte\\s+array"
+            },
+            {
+              "type": "GIVEN",
+              "annotatedPattern": "a file, a\\.log",
+              "resolvedPattern": "a\\s+file,\\s+a\\.log"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given a file, a.log",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 7,
+                "start": 1608955136200,
+                "end": 1608955136207
+              },
+              "parametrisedStep": "Given a file, a.log"
+            },
+            {
+              "step": "When the caller loads the file as a byte array",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136207,
+                "end": 1608955136207
+              },
+              "parametrisedStep": "When the caller loads the file as a byte array"
+            },
+            {
+              "step": "Then the byte array that is returned contains the correct number of bytes.",
+              "type": "SUCCESSFUL",
+              "timing": {
+                "durationInMillis": 0,
+                "start": 1608955136207,
+                "end": 1608955136207
+              },
+              "parametrisedStep": "Then the byte array that is returned contains the correct number of bytes."
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        }
+      }
+    }
+  ]
+}}
